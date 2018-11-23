@@ -1,0 +1,6 @@
+/* pages/seuCardRecharge/seuCardRecharge.wxss */
+.content{
+  margin: 10rpx;
+  padding: 10rpx;
+  border: 1px solid#eee
+}

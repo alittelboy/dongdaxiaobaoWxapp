@@ -1,0 +1,13 @@
+<!--pages/databind/databind.wxml-->
+<text>pages/databind/databind.wxml</text>
+<view class='container'>
+  <view class='content'>
+    <text>{{content}}</text>
+  </view>
+  
+  <view class='content' hidden='{{flag ? true : false}}'>{{hiddencontent}}</view>
+
+  <view class='content'> {{num1}} + {{num2}} = {{num1+num2}}</view>
+
+  <view class='content'>hello {{user.name}}</view>
+</view>

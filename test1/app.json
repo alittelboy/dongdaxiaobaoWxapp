@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/renwen/renwen",
+    "pages/logs/logs",
+    "pages/databind/databind",
+    "pages/seuCardRecharge/seuCardRecharge",
+    "pages/searchCourse/searchCourse",
+    "pages/searchXiaobao/searchXiaobao",
+    "pages/todyActivity/todayActivity",
+    "pages/huodong/huodong",
+    "pages/jingsai/jingsai",
+    "pages/company/company",
+    "pages/feedback/feedback"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "东大小宝",
+    "navigationBarTextStyle": "black"
+  }
+}

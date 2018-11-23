@@ -1,0 +1,10 @@
+<!--pages/seuCardRecharge/seuCardRecharge.wxml-->
+<text>pages/seuCardRecharge/seuCardRecharge.wxml</text>
+<view class='container'>
+  <switch checked='{{record}}' bindchange='setRecord'>记住密码</switch>
+  <switch bindchange='setAuto'>开启时自动充值</switch>
+  <input class='content' value='{{card}}'  placeholder='请输入一卡通' bindinput='setCard'></input>
+  <input class='content' value='{{sqpsw}}' placeholder='请输入查询密码' password='true' bindinput='setSqpsw'></input>
+  <input class='content' value='{{money}}' placeholder='请输入充值金额' bindinput='setMoney'></input>
+  <button class='content' bindtap='submit' >提交</button>
+</view>

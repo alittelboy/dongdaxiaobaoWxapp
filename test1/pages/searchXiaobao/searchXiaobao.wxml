@@ -1,0 +1,26 @@
+
+<view class='container'>
+  <input class='content' focus='true' placeholder='请输入关键词' bindinput='keyin2'></input>
+  <input class='content' placeholder='请输入标题（可选）' bindinput='keyin1'></input>
+  
+  <text class='explain'>查询学校信息？在关键词输入“总务处”试试
+
+  一般来说，不建议使用标题搜索，除非你真的是想搜小宝的历史推送。。（快跑老大要打我）
+
+  可以只输入一个，可以输入不完整名称。
+  </text>
+  <text  wx:if="{{haveUsed}}" class='explain2'>点击下方推送标题，复制相关链接，然后在外部浏览器打开。\n（由于小程序不允许打开外部链接）</text>
+
+
+  <button class='btn' bindtap='search'>查询</button>
+  <view wx:for="{{jiangzuo}}" class='content'>
+    <text data-id='{{index}}' bindtap='copyurl'>【{{index}}】文章标题: {{item.F2}}
+
+    首次相关部分:
+    {{item.F3}}
+    </text> 
+    
+  </view>
+  <view class='explain'>本网页基于东大小宝（SEUxiaobao）历史推送，和表单大师网站制作。欢迎关注东大小宝了解更多功能。</view>
+  <image class='pic' src='../endpic.jpg'></image>
+</view>

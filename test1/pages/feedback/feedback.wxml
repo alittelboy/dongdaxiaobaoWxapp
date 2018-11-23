@@ -1,0 +1,70 @@
+<!--pages/feedback/feedback.wxml-->
+<view class = 'container'>
+<text style='font-size: 85rpx;'>关于小宝</text>
+<text>\n</text>
+<text style='font-size: 40rpx;'>东大小宝是为东南学子成立的</text> 
+<text style='font-size: 60rpx;'>民间服务组织</text> 
+
+<text>\n</text>
+<view>我们是东大小宝</view> 
+<view>我们有使命感</view> 
+<view>终将改变潮水的方向</view> 
+<view>小宝的服务理念是</view> 
+<view>"让东大人的生活更简单"</view> 
+<view>致力于打造最具东大亲和力的生活服务平台</view> 
+ 
+
+
+
+
+
+<text bindtap='getQQ' class='content'>欢迎添加小宝QQ:\n1619623811</text>
+<text bindtap='getQQbot' class='content'>欢迎添加东大小宝QQ机器人：\ni小宝 2142364173</text>
+<text bindtap='getWx' class='content'>欢迎添加微信公众号 \n东大小宝 SEUxiaobao </text>
+<text bindtap='getWxapp' class='content'>欢迎添加小宝小程序:\ndongdaxiaobao\n（由于我们是个人小程序，暂时并不能搜索到,只能通过公众号或者你收藏分享）</text>
+
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text style='font-size: 40rpx;'>i小宝（东大小宝QQ机器人）</text> 
+<text style='font-size: 40rpx;'>具有本小程序</text> 
+<text style='font-size: 60rpx;'>几乎全部</text> 
+<text style='font-size: 40rpx;'>功能！</text> 
+<text style='font-size: 40rpx;'>此外，还有数百条其他关键词</text> 
+<text style='font-size: 40rpx;'>可以触发，或搜索关键词</text> 
+<text style='font-size: 40rpx;'>此外，还可以用它查跑操、查课表</text> 
+<text style='font-size: 40rpx;'>当前用户已经超过3000</text> 
+
+
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text style='font-size: 40rpx;'>东大小宝微信公众号</text> 
+<text style='font-size: 40rpx;'>SEUxiaobao</text> 
+<text style='font-size: 40rpx;'>每周推送seu各种信息</text> 
+<text style='font-size: 40rpx;'>也承接各种推送</text> 
+<text style='font-size: 40rpx;'>目前它是小程序的唯一入口</text> 
+<text style='font-size: 40rpx;'>当前关注用户约1万人</text> 
+
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+
+<text style='font-size: 40rpx;'>关于小程序</text> 
+<text style='font-size: 40rpx;'>dongdaxiaobao</text> 
+<text style='font-size: 30rpx;'>我想，我们尽量不要和其他seu小程序功能冲突</text> 
+<text style='font-size: 40rpx;'>因为我们很菜</text> 
+<text style='font-size: 40rpx;'>技术、资历，都不够竞争</text> 
+<text style='font-size: 40rpx;'>安安静静的做一些，别人没做的</text> 
+<text style='font-size: 40rpx;'>便利大家的生活才是最重要的</text> 
+<text style='font-size: 40rpx;'>如果你有任何想法，才能</text> 
+<text style='font-size: 40rpx;'>联系我们</text> 
+
+
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text bindtap='getGitUrl' class='content'>源码github链接（欢迎关注留言）</text>
+
+</view>
+

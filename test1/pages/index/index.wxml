@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<scroll-view>
+<view class="container">
+  <view hidden='true' bindtap='testlog'>test</view>
+  <block>
+    <image bindtap="getRenwen" class="userinfo-avatar" src="rw1.jpg" mode="cover"></image>
+    <text class="">人文讲座历史查询</text>
+    <text class='userinfo-nickname'>那一天 我到底听的是哪场讲座？Orz</text>
+  </block>
+  
+  <block>
+    <image bindtap="getSearchCourse" class="userinfo-avatar" src="ck2.jpg" mode="cover"></image>
+    <text class="">全校开课查询</text>
+    <text class='userinfo-nickname'>闲着无聊 看看有什么课可以蹭=_=</text>
+  </block>
+  <block>
+    <image bindtap="getSearchXiaobao" class="userinfo-avatar" src="xxcx2.jpg" mode="cover"></image>
+    <text class="">seu信息查询</text>
+    <text class='userinfo-nickname'>有什么不懂的可以来搜搜看 </text>
+    <text class='userinfo-nickname'>例如搜索“总务处”“一卡通”</text>
+  </block>
+  <block>
+    <image bindtap="getHuodong" class="userinfo-avatar" src="xyhd1.png" mode="cover"></image>
+    <text class="">校园活动</text>
+    <text class='userinfo-nickname'>线上线下，各个组织√</text>
+    <text class='userinfo-nickname'>努力做最全的seu校园活动整合</text>
+    
+  </block>
+  <block>
+    <image bindtap="getJingsai" class="userinfo-avatar" src="js1.png" mode="cover"></image>
+    <text class="">校内竞赛</text>
+    <text class='userinfo-nickname'>仰慕你们这些竞赛大佬(￣△￣；)</text>
+  </block>
+
+  <block>
+    <image bindtap="getCompany" class="userinfo-avatar" src="qy1.jpg" mode="cover"></image>
+    <text class="">企业宣讲会</text>
+    <text class='userinfo-nickname'>找工作让人头大o(一︿一+)o</text>
+  </block>
+  
+  <block>
+    <image bindtap="getFeedback" class="userinfo-avatar" src="../malebao.jpg" mode="cover"></image>
+    <text class="">关于&反馈</text>
+    <text class='userinfo-nickname'>欢迎提建议和指出问题~~</text>
+    <text class='userinfo-nickname'>（小声bb：我把这个界面删了，</text>
+    <text class='userinfo-nickname'>是不是就永远没有bug了）</text>
+  </block>
+
+
+  <text class="user-motto">\n\n东大小宝，让东大人的生活更简单！</text>
+
+
+</view>
+</scroll-view>

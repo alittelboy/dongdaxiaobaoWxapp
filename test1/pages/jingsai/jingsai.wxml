@@ -1,0 +1,22 @@
+
+<view class='container'>
+  
+
+  <text wx:if="{{ab}}" style='font-size: 75rpx;'>近期 竞赛一览：</text>
+  <text wx:if="{{haveUsed}}" class='explain2'>点击下方活动文字，复制相关链接，然后在外部浏览器打开。\n（由于小程序不允许打开外部链接）</text>
+
+
+  <view wx:for="{{jiangzuo}}" class='content'>
+    <text data-id='{{index}}' bindtap='copyurl'>【{{index}}】 {{item.F999}}
+    {{item.F1}}
+    {{item.F2}} 
+    {{item.F3}}  {{item.F4}}
+    {{item.F5}} 
+    {{item.F12}}
+    </text> 
+    
+  </view>
+  <text class='explain'>数据由东大小宝（SEUxiaobao）整理。</text>
+
+  <image bindtap='getQQGroup' style="width:700rpx; height:1400rpx;" src='inputHuodong.jpg'></image>
+</view>

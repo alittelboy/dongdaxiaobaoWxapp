@@ -1,0 +1,21 @@
+
+<view class='container'>
+  
+  <input class='content' focus='true' placeholder='请输入课程名称' bindinput='keyin1'></input>
+  <input class='content' placeholder='请输入老师名' bindinput='keyin2'></input>
+  <view class='explain'>例如课程输入“高等”，或者或并且，老师输入“程”等,然后点击下方查询搜索。可以只输入一个，可以输入不完整名称。</view>
+
+
+  <button class='btn' bindtap='search'>查询</button>
+  <view wx:for="{{jiangzuo}}" class='content'>
+    <text data-id='{{index}}' bindtap='copyurl'>【{{index}}】
+    学院:{{item.F1}}\n
+    课程名:{{item.F2}}\n
+    开课老师:{{item.F3}}\n
+    上课时间:{{item.F4}}  
+    </text> 
+    
+  </view>
+  <view class='explain'>本网页基于seu教务处公开数据，和表单大师网站制作。欢迎关注东大小宝了解更多功能。</view>
+  <image class='pic' src='../endpic.jpg'></image>
+</view>

@@ -1,0 +1,47 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50rpx 0;
+  box-sizing: border-box;
+} 
+/* pages/renwen/renwen.wxss */
+.content{
+  margin: 10rpx;
+  padding: 10rpx;
+  width: 80%;
+  border: 1px solid#eee
+}
+.explain{
+  margin: 10rpx;
+  padding: 10rpx;
+  width: 80%;
+  font-size: 30rpx;
+  text-align: center;
+  border: 1px solid#eee
+}
+.explain2{
+  margin: 10rpx;
+  padding: 10rpx;
+  width: 80%;
+  font-size: 30rpx;
+  text-align: center;
+  color: #f00;
+  border: 1px solid#eee
+}
+.btn{
+  width: 80%;
+}
+.btn2{
+  color: #f00;
+  width: 80%;
+}
+.pic{
+  width: 500rpx;
+  height: 500rpx;
+  margin: 20rpx;
+
+}

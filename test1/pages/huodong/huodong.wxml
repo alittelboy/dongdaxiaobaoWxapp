@@ -1,0 +1,29 @@
+
+<view class='container'>
+  
+  <text class='explain'>你可以点击各种活动按钮后，在本界面阅览；\n\n也可以点击活动按钮后，在浏览器里阅览。</text>
+
+
+  <button class='{{da?"btn2":"btn"}}' bindtap='searchToday'>查询今日活动</button>
+  <button class='{{to?"btn2":"btn"}}' bindtap='searchTomorrow'>查询明日活动</button>
+  <button class='{{ab?"btn2":"btn"}}' bindtap='searchAboutNow'>查询近期活动</button>
+  <text wx:if="{{da}}" style='font-size: 75rpx;'>今日 活动一览：</text>
+  <text wx:if="{{to}}" style='font-size: 75rpx;'>明日 活动一览：</text>
+  <text wx:if="{{ab}}" style='font-size: 75rpx;'>近期 活动一览：</text>
+  <text wx:if="{{haveUsed}}" class='explain2'>点击下方活动文字，复制相关链接，然后在外部浏览器打开。\n（由于小程序不允许打开外部链接）</text>
+
+
+  <view wx:for="{{jiangzuo}}" class='content'>
+    <text data-id='{{index}}' bindtap='copyurl'>【{{index}}】 {{item.F999}}
+    {{item.F1}}
+    {{item.F2}} 
+    {{item.F3}}  {{item.F4}}
+    {{item.F5}} 
+    {{item.F12}}
+    </text> 
+    
+  </view>
+  <text class='explain'>数据由东大小宝（SEUxiaobao）整理。</text>
+
+  <image bindtap='getQQGroup' style="width:700rpx; height:1400rpx;" src='inputHuodong.jpg'></image>
+</view>

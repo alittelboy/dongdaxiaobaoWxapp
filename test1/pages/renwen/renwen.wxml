@@ -1,0 +1,20 @@
+
+<view class='container'>
+  
+  <input class='content' focus='true' placeholder='请输入日期或者内容' bindinput='keyin'></input>
+  <view class='explain' wx:if="{{!haveUsed}}">例如输入“4月5日”、“中国京剧艺术魅力”等,然后点击下方查询搜索。</view>
+  <block wx:else>
+    <view class='explain2' >可以点击搜索结果，复制到剪切板，自行在外部浏览器打开。</view>
+    <view class='explain' >（由于小程序不许打开超链接）</view>
+  </block>
+
+  <button class='btn' bindtap='search'>查询</button>
+  <view wx:for="{{jiangzuo}}" class='content'>
+    <text data-id='{{index}}' bindtap='copyurl'>【{{index}}】{{item.F2}}
+    
+    首次相关部分：
+    {{item.F3}}</text>
+  </view>
+  <view class='explain'>本网页基于文教数据，和表单大师网站制作。欢迎关注东大小宝了解更多功能。</view>
+  <image class='pic' src='../endpic.jpg'></image>
+</view>
